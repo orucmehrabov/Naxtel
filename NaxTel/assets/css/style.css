@@ -1,6 +1,7 @@
 * {
     padding: 0;
     margin: 0;
+    box-sizing: border-box;
 }
 
 body {
@@ -35,4 +36,18 @@ nav li {
 nav a {
     color: #000000;
     text-decoration: none;
+}
+.navbar {
+    background-color: orange;
+}
+
+.navbar a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.navbar-right {
+    display: flex;
+    align-items: right;
+    justify-content: right;
 }
